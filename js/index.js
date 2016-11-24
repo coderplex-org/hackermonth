@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$('.js-timer').countdown($('.js-timer').data('meetupDate'),
+	$('.js-timer').countdown($('.js-timer').attr('data-meetupDate'),
 		function(event) {
 			var $this = $(this).html(event.strftime('' +
 				'<span>%D</span> days ' +
