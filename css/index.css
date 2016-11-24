@@ -7,11 +7,6 @@
   color: #fff;
 }
 
-::-moz-selection {
-  background: #00A200;
-  color: #fff;
-}
-
 ::selection {
   background: #00A200;
   color: #fff;
@@ -197,7 +192,7 @@ nav ul li a:hover {
     font-size: 48px;
   }
 }
-.challenges ul {
+.meetups ul {
   width: 80%;
   list-style: none;
   padding: 0;
@@ -211,21 +206,21 @@ nav ul li a:hover {
           flex-wrap: wrap;
 }
 @media(max-width: 1024px) {
-  .challenges ul {
+  .meetups ul {
     width: 100%;
   }
 }
-.challenges ul li {
+.meetups ul li {
   width: calc(50% - 40px);
   margin: 20px;
 }
 @media(max-width: 760px) {
-  .challenges ul li {
+  .meetups ul li {
     width: calc(100% - 40px);
     margin: 15px;
   }
 }
-.challenges ul li a {
+.meetups ul li a {
   background: orange;
   padding: 10px;
   color: #fff;
@@ -245,33 +240,33 @@ nav ul li a:hover {
           align-items: center;
   border-radius: 5px 20px;
 }
-.challenges ul li a img {
+.meetups ul li a img {
   width: 250px;
 }
-.challenges ul li a svg {
+.meetups ul li a svg {
   width: 45px;
   height: 43px;
   fill: #fff;
 }
-.challenges ul li:first-child a {
+.meetups ul li:first-child a {
   background: lightgreen;
 }
-.challenges ul li:nth-child(2) a {
+.meetups ul li:nth-child(2) a {
   background: lightblue;
 }
-.challenges ul li:nth-child(3) a {
+.meetups ul li:nth-child(3) a {
   background: lightpink;
 }
-.challenges ul li:nth-child(3) a img {
+.meetups ul li:nth-child(3) a img {
   width: 200px;
 }
-.challenges ul li:last-child a {
+.meetups ul li:last-child a {
   background: #2a2a2a;
 }
-.challenges ul li:last-child a span {
+.meetups ul li:last-child a span {
   color: #cd9049;
 }
-.challenges ul li:last-child a img {
+.meetups ul li:last-child a img {
   width: 150px;
 }
 
