@@ -458,12 +458,6 @@ nav ul li a:hover {
   width: 150px;
 }
 
-header .main-timer {
-  position: absolute;
-  margin-top : 12%;
-  left : 47%;
-}
-
 .timer {
   text-transform: capitalize;
   font-weight: normal;
