@@ -32,8 +32,8 @@ header .banner {
 
 header .banner-bg-img {
   display: block;
-  width: 100%;
-  height: 450px;
+  width: 80%;
+  height: 550px;
   margin: 0 auto;
   margin-bottom: 20px;
   background-image: url(../img/banner.png);
@@ -330,7 +330,7 @@ header h1 {
 header .main-timer {
   position: absolute;
   margin-top : 12%;
-  left : 48%;
+  left : 47%;
 }
 
 .timer {
