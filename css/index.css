@@ -18,6 +18,11 @@ body {
   background: #F7F7F7;
 }
 
+header .main-banner {
+  width : 100%;
+  height : 100%;
+}
+
 header .banner {
   display: block;
   width: 70%;
@@ -316,6 +321,16 @@ nav ul li a:hover {
 
 .meetups ul li:last-child a img {
   width: 150px;
+}
+
+header h1 {
+  color : #DDD;
+}
+
+header .main-timer {
+  position: absolute;
+  margin-top : 12%;
+  left : 48%;
 }
 
 .timer {
