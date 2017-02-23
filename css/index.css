@@ -13,7 +13,7 @@
 }
 
 body {
-  margin: 0;
+  margin: -3% 0px;
   font-family: "Open Sans", Helvetica, sans-serif;
   background: #F7F7F7;
 }
@@ -28,8 +28,8 @@ header h1 {
 
 header .main-timer {
   position: absolute;
-  left: 45%;
-  top: 150px;
+  left: 30%;
+  bottom: 100px;
 }
 
 .timer, .main-timer {
